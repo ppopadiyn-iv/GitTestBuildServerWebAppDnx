@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13411D60-CB73-46F1-87C4-3B5C6C30B3C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08C6B249-D5D8-4C9A-B22F-9D1FA969FA64}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppDnx", "src\WebAppDnx\WebAppDnx.xproj", "{40376CD9-928A-4848-A564-693490FD4A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{15BAD350-3428-4DD5-880F-FE9E7A44548C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppDnx.Tests", "test\WebAppDnx.Tests\WebAppDnx.Tests.xproj", "{5B66C7E8-8489-46BE-8422-6877221799E9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppDnx.DomainServices", "src\WebAppDnx.DomainServices\WebAppDnx.DomainServices.xproj", "{12B630B7-CC9E-48EA-AA86-E8690FA023B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40376CD9-928A-4848-A564-693490FD4A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40376CD9-928A-4848-A564-693490FD4A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40376CD9-928A-4848-A564-693490FD4A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40376CD9-928A-4848-A564-693490FD4A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B66C7E8-8489-46BE-8422-6877221799E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B66C7E8-8489-46BE-8422-6877221799E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B66C7E8-8489-46BE-8422-6877221799E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B66C7E8-8489-46BE-8422-6877221799E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B630B7-CC9E-48EA-AA86-E8690FA023B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B630B7-CC9E-48EA-AA86-E8690FA023B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B630B7-CC9E-48EA-AA86-E8690FA023B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B630B7-CC9E-48EA-AA86-E8690FA023B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40376CD9-928A-4848-A564-693490FD4A96} = {13411D60-CB73-46F1-87C4-3B5C6C30B3C0}
+		{5B66C7E8-8489-46BE-8422-6877221799E9} = {15BAD350-3428-4DD5-880F-FE9E7A44548C}
+		{12B630B7-CC9E-48EA-AA86-E8690FA023B6} = {13411D60-CB73-46F1-87C4-3B5C6C30B3C0}
+	EndGlobalSection
+EndGlobal
