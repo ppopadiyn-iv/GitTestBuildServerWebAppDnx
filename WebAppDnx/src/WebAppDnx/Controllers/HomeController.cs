@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
+using WebAppDnx.DomainServices;
 
 namespace WebAppDnx.Controllers
 {
@@ -15,7 +16,8 @@ namespace WebAppDnx.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            Calculator calculator = new Calculator();
+            ViewData["Message"] = calculator.Add(2, 2).ToString();
 
             return View();
         }

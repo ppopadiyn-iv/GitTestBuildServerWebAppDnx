@@ -2,3 +2,4 @@
 **/wwwroot/lib
 *.suo
 project.lock.json
+**/bin/
