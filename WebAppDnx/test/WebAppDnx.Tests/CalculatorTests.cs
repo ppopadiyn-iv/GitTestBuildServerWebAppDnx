@@ -23,7 +23,7 @@ namespace WebAppDnx.Tests
         [Theory]
         [InlineData(6, 7, 42)]
         [InlineData(2, 6, 12)]
-        [InlineData(2, 6, 13)] // Fail
+        [InlineData(3, 6, 18)] // Fail
         public void MultiplyNumbers(int a, int b, int expected)
         {
             Assert.Equal(expected, calc_.Multiply(a, b));
